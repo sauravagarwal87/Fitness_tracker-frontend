@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap'); */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+} */
+
+/* body {
+    background: #eee;
+    font-family: 'Ubuntu', sans-serif
+    
+} */
+
+.box1 {
+    position: static;
+    margin-left: 0px;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 15px
+}
+
+.our-services1 {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+.our-services1 .icon {
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.our-services1:hover h4,
+.our-services1:hover p {
+    color: #fff
+}
+
+.speedup1:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, red 100%)
+}
+
+.settings1:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, rgb(1, 39, 1) 0%, rgb(135, 240, 135) 100%)
+}
+.settings3:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, rgb(125, 8, 242) 0%, rgb(188, 134, 241) 100%)
+}
+.settings2:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, red 100%)
+}
+
+.privacy1:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+}
+
+.backups1:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, rgb(125, 8, 242) 0%, rgb(188, 134, 241) 100%)
+}
+
+.ssl1:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, red 100%)
+}
+
+.database1:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
